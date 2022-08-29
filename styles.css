@@ -1,0 +1,64 @@
+
+@font-face{
+   font-family: "Michroma";
+   src: url("./resources/Michroma.ttf");
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+p{font-size: 20px;}
+h1{font-size: 30px;}
+li{font-size: 20px;}
+
+button{
+    background-color: orange;
+    font-family: "Michroma";
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+}
+
+body{
+    background: url("./resources/Fondo.jpg") fixed;
+    background-size: cover;
+    font-family: "Michroma";
+    color: white;
+}
+
+#Principal{
+    display: block;
+    text-align: center;
+}
+
+#Logo{
+    height: 350px;
+    width: auto;
+}
+
+#Titulo{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.Pelicula{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.Portada{
+    display: inline;
+    width: 100%;
+    height: auto;
+}
+
+.Sinopsis{
+    display: block;
+    justify-content: center;
+    margin-left: 50px;
+}
+
